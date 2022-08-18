@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 148px 0 100px 0;
+}
+.ad_main_text{
+    font-size: 25px;
+    color: #7E7FD7;
+}
+.simple_text{
+    color: #646464;
+    font-size: 16px;
+    line-height: 25px;
+}
+.hello_text_ad{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.tel_contact_info{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-bottom: 20px;
+}
+
+.here_ad{
+    color: #646464;
+    font-size: 16px; 
+    text-decoration: none;
+    transition: .3s ease;
+}
+.here_ad:hover{
+    color: #7E7FD7;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 20px;
+
+}
+@media(max-width: 1500px){
+    main{
+        max-width: 1200px;
+    }
+}
+@media(max-width: 1300px){
+    main{
+        max-width: 900px;
+    }
+}
+@media(max-width: 1000px){
+    main{
+        max-width: 700px;
+    }
+}
+@media(max-width: 800px){
+    main{
+        max-width: 600px;
+    }
+}
+@media(max-width: 700px){
+    main{
+        max-width: unset;
+        padding: 148px 20px 100px 20px;
+    }
+}
+@media(max-width: 500px){
+    .ad_main_text{
+        font-size: 18px;
+    }
+}
