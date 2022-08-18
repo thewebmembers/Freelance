@@ -77,13 +77,16 @@ main ul{
         max-width: 500px;
     }
     .particullar_line_height{
-        font-size: 12px;
+        font-size: 16px;
     }
     .list_style{
-        font-size: 12px;
+        font-size: 16px;
     }
     .main_rule_text {
         font-size: 15px;
+    }
+    .particullar_line_height{
+        line-height: 25px;
     }
 }
 @media(max-width: 600px){
