@@ -158,6 +158,11 @@ input[type=number] {
         width: 100%;
     }
 }
+@media(max-width: 430px){
+   .contactForm .inputBox input[type="submit"]{
+       font-size: 16px;
+    }
+}
 @media(max-width: 414px){
     .contactForm h2{
         font-size: 20px;
